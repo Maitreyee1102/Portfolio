@@ -4,13 +4,7 @@ const path = require('path');
 const Messages=require('./collections/Messages');
 const cors = require('cors');
 
-
-
 const app = express();
-
-
-
-
 
 app.use(cors());
 connectDB();
